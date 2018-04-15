@@ -1,0 +1,20 @@
+Aufgabe 2.2:
+Ändert die Bedingung so, dass nicht gleich die erste Person ("Willi") zurückgegeben wird. 
+Eventuell gibt es Abstürze. Analysiert die Abstürze mit dem Debugger, überprüft Variableninhalte und den Call-Stack.
+
+Lsg:
+
+Damit nicht gleich die erste Person („Willi“) zurückgegeben wird, kann die Bedingung wie folgt sein:
+    
+    if (person.LastName == "Spencer")
+
+Somit wird Diana Spencer zurückgegeben, da mit dieser Bedingung gezielt nach einem Namen gesucht wird.
+
+
+Ebenso kann die Bedingung wie folgt aussehen:
+
+    if (person.LastName != "Cambridge" && person.LastName != "Spencer")
+
+Diese Bedingung sucht nach einem Namen, dass weder Cambridge, noch Spencer entspricht. 
+Dem Stammbaum zufolge wird dann Franzi Roche zurückgegeben, da Willi’s Nachname Cambridge und die nächste Person Diana Spencer ist, 
+ist die Bedingung erst bei Franzi Roche erfüllt, da der Nachname ungleich Cambridge und Spencer ist. 
