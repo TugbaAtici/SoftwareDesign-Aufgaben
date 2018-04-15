@@ -1,0 +1,27 @@
+Aufgabe 2.3:
+Schreibt komplexere Bedingungen, findet z.B. die erste Person, die in einer Altersspanne liegt, vergleicht dazu person.DateOfBirth.Year 
+mit DateTime.Now.Year. Analysiert mit dem Debugger, ob Eure Bedingung richtig ist
+
+
+
+Lsg:
+
+Suche nach einer Altersspanne größer gleich 70 und kleiner gleich 110:
+
+public class Familytree
+{
+    public static Person Find(Person person)
+    {
+          Person ret = null;
+		      int age = DateTime.Now.Year – person.DateOfBirth.Year;
+		        if (age >= 70 && age <= 110)
+			      return person; 
+
+          ret = Find(person.Mom);
+      		  if (ret != null)
+                return ret;
+          ret = Find(person.Dad);
+          return ret;
+
+
+
