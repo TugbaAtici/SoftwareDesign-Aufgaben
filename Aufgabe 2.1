@@ -1,0 +1,36 @@
+Aufgabe 2: 
+Betrachtet die Source-Code-Dateien FamilyTree.cs und Program.cs. In Familytree wird eine Datenstruktur aufgebaut, die eine Art 
+Familienstammbaum repräsentiert (Ähnlichkeiten mit realen Personen sind rein zufällig :-)).
+
+Aufgabe 2.1: 
+Macht euch klar, dass die Datenstruktur Person rekursiv ist, denn jedes Objekt vom Typ Person referenziert zwei weitere Objekte vom Typ 
+Person, nämlich Mom und Dad. Die Methdode BuildTree() baut einen Beispiel-Baum auf. Setzt einen Breakpoint in Zeile 19 von Program.cs, 
+startet den Debugger und seht Euch den Inhalt von root im Debugger an. Die Methode Find() durchläuft rekursiv den Baum und prüft alle 
+Person-Objekte darauf, ob die Bedingung in Zeile 22gegeben ist. Die erste Person, die die Bedingung erfüllt, wird zurückgeliefert.
+
+Dokumentation:
+
+-	Der Stammbaum beginnt mit Willi Cambridge, dem jüngsten in der Familie, daraufhin wird auf 
+    	seine Mutter: Diana Spencer, 
+      o	Diana Spencer’s Mutter: Franzi Roche,
+         ->	Franzi Roche‘s Mutter: Ruth Gill und
+         ->	Franzi Roche‘s Vater: Moritz Roche,
+      o	Diana Spencer’s Vater: Eddie Spencer,
+         ->	Eddie Spencer’s Mutter: Cynthia Hamilton und
+         -> Eddie Spencer’s Vater: Albert Spencer verwiesen.
+         
+- Demnach ist Willi’s mütterliche Seite zuerst aufgeführt, gefolgt von seiner väterlichen Seite:
+   	sein Vater: Charlie Wales,
+      o	Charlie Wales‘ Mutter: Else Windsor,
+         ->	Else Windsor‘s Mutter: Lisbeth Bowes-Lyon und
+         -> Else Windsor’s Vater: Schorsch-Albert York,
+-	gefolgt von:
+      o	Charlie Wales’s Vater: Phillip Battenberg,
+         -> Phillip Battenberg’s Mutter: Alice Battenberg und
+         -> Phillip Battenberg’s Vater: Andi ElGreco
+
+Die Methode „BuildTree()“ wird selbstständig so oft ausgeführt, bis die Funktion null zurückgeliefert wird. 
+In Zeile 22:
+if (person.LastName != "Battenberg")
+wurde die Bedingung festgelegt, sodass die erste Person, die die Bedingung erfüllt zurückgegeben wird.
+
