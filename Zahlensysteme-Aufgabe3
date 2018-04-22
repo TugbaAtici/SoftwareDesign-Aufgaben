@@ -24,78 +24,77 @@ namespace Zahlensysteme-Aufgabe3
 
         
 
-	public static int ConvertToBaseFromDecimal(int toBase, int deci)
-	{
+		public static int ConvertToBaseFromDecimal(int toBase, int deci)
+		{
 		
-		int[] arr = new int[4];
-        	if (0 <= deci && deci <= 1023)
+			int[] arr = new int[4];
+        		if (0 <= deci && deci <= 1023)
+        		{
+        
+            			for (int i = 0; i <= deci.ToString().Length + 2; i++)
+            			{
+          
+                			int value = deci / toBase;
+                			int modulo = deci % toBase;
+                			arr[i] = modulo;
+                			deci = value;
+         
+        	    		}	
+       
+       			}
+       
+
+           
+			Array.Reverse(arr);
+       			int newArray = Convert.ToInt32((string.Join("", arr)));
+       			return newArray;
+       		}
+     
+     
+        	public static int ConvertToDecimalFromBase(int fromBase, int number)
         	{
         
-            		for (int i = 0; i <= deci.ToString().Length + 2; i++)
+           		int length = number.ToString().Length;
+            		int[] array = new int[length];
+            		int[] newArray = new int[length];
+            		int sum = 0;
+
+            		for (int i = 0; i < length; i++)
             		{
-          
-                		int value = deci / toBase;
-                		int modulo = deci % toBase;
-                		arr[i] = modulo;
-                		deci = value;
-         
-            		}	
-       
-       }
-       
-
-           
-	Array.Reverse(arr);
-       	int newArray = Convert.ToInt32((string.Join("", arr)));
-       	return newArray;
-       	}
-     
-     
-        public static int ConvertToDecimalFromBase(int fromBase, int number)
-        {
-        
-            int length = number.ToString().Length;
-            int[] array = new int[length];
-            int[] newArray = new int[length];
-            int sum = 0;
-
-            for (int i = 0; i < length; i++)
-            {
             
-                array[i] = number % 10;
-                number /= 10;
-                newArray[i] += array[i] * Convert.ToInt32(Math.Pow(fromBase, i));
+                		array[i] = number % 10;
+               			 number /= 10;
+                		newArray[i] += array[i] * Convert.ToInt32(Math.Pow(fromBase, i));
            
-            }
+           		 }
 
             
-            for (int j = 0; j < newArray.Length; j++)
-            {
-	    	
-		sum += newArray[j];
+            		for (int j = 0; j < newArray.Length; j++)
+           		 {
+	   		 	
+				sum += newArray[j];
             
-            }
+            		}
            
-            return sum;
+            		return sum;
         
-            }
+            	}
         
         
         
-        public static int ConvertNumberToBaseFromBase(int number, int toBase, int fromBase)
-        {
+		public static int ConvertNumberToBaseFromBase(int number, int toBase, int fromBase)
+        	{
 
-            if (2 <= fromBase && fromBase <= 10 && 2 <= toBase && toBase <= 10)
-            {
+            		if (2 <= fromBase && fromBase <= 10 && 2 <= toBase && toBase <= 10)
+            		{
                 
-                int deci = ConvertToDecimalFromBase(fromBase, number);
-                int value = ConvertToBaseFromDecimal(toBase, deci);
-               
-               	return value;
-            }
+                		int deci = ConvertToDecimalFromBase(fromBase, number);
+                		int value = ConvertToBaseFromDecimal(toBase, deci);
+               			return value;
+           		}
             
-            return -1;
+           		 return -1;
         
-        }
+       		}
     
-    }
+}
