@@ -15,12 +15,12 @@ namespace Zahlensysteme-Aufgabe3
         	
     		}
 
-        public static int ConvertHexalToDezimal(int hex)
-        {
+        	public static int ConvertHexalToDezimal(int hex)
+        	{
       
-            return ConvertToDecimalFromBase(6, hex);
+           		 return ConvertToDecimalFromBase(6, hex);
      
-     	}
+     		}
 
         
 
