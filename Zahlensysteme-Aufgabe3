@@ -63,7 +63,7 @@ namespace Zahlensysteme-Aufgabe3
             		{
             
                 		array[i] = number % 10;
-               			 number /= 10;
+               			number /= 10;
                 		newArray[i] += array[i] * Convert.ToInt32(Math.Pow(fromBase, i));
            
            		 }
