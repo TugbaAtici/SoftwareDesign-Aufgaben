@@ -27,7 +27,7 @@ namespace Zahlensysteme-Aufgabe3
 		public static int ConvertToBaseFromDecimal(int toBase, int deci)
 		{
 		
-			int[] arr = new int[4];
+			int[] ary = new int[4];
         		if (0 <= deci && deci <= 1023)
         		{
         
@@ -36,7 +36,7 @@ namespace Zahlensysteme-Aufgabe3
           
                 			int value = deci / toBase;
                 			int modulo = deci % toBase;
-                			arr[i] = modulo;
+                			ary[i] = modulo;
                 			deci = value;
          
         	    		}	
@@ -45,8 +45,8 @@ namespace Zahlensysteme-Aufgabe3
        
 
            
-			Array.Reverse(arr);
-       			int newArray = Convert.ToInt32((string.Join("", arr)));
+			Array.Reverse(ary);
+       			int newArray = Convert.ToInt32((string.Join("", ary)));
        			return newArray;
        		}
      
