@@ -29,8 +29,6 @@ namespace Generischer-Baum-Aufgabe4
         
         
         
-        
-        
         class TreeNode<T>
         {
         
@@ -68,7 +66,9 @@ namespace Generischer-Baum-Aufgabe4
             {
                 child.PrintTree(AddTree + "*");
             }
-        }
-  }
+          }
+      } 
+   }
+} 
         
         
