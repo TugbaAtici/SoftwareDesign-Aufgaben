@@ -80,5 +80,5 @@ namespace A01_Koerpereigenschaften
         {
             return "Oktaeder: A=" + Math.Round(GetOctahedronSurface(edgeLength), 2) + " | V=" + Math.Round(GetOctahedronVolume(edgeLength), 2);
         }
-    }//beispiel
+    }
 }
