@@ -6,10 +6,19 @@ namespace Praktikum_24._10._2018
     {
         static void Main(string[] args)
         {
-            var i = 4;
-            var pi = 3.1415;
-            var salute = "Hello,World";
-            Console.WriteLine(i+pi+salute);
+            int DecimalToHexal(int dec)
+            {
+                int result = 0;
+                int factor = 1;
+                while (dec != 0)
+                {
+                    int digit = dec % 6;
+                    dec /= 6;
+                    result += factor * digit;
+                    factor *= 10;
+                }
+                return result;
+            }
         }
     }
 }
