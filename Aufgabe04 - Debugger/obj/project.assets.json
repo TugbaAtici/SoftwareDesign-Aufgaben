@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Modulare Softwareentwicklung im Frontend\\Modulare-Softwareentwicklung-im-Frontend\\SoftwareDesign-Aufgaben\\Aufgabe04\\Aufgabe04.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Modulare Softwareentwicklung im Frontend\\Modulare-Softwareentwicklung-im-Frontend\\SoftwareDesign-Aufgaben\\Aufgabe04 - Debugger\\Aufgabe04.csproj",
       "projectName": "Aufgabe04",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Modulare Softwareentwicklung im Frontend\\Modulare-Softwareentwicklung-im-Frontend\\SoftwareDesign-Aufgaben\\Aufgabe04\\Aufgabe04.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Modulare Softwareentwicklung im Frontend\\Modulare-Softwareentwicklung-im-Frontend\\SoftwareDesign-Aufgaben\\Aufgabe04 - Debugger\\Aufgabe04.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Modulare Softwareentwicklung im Frontend\\Modulare-Softwareentwicklung-im-Frontend\\SoftwareDesign-Aufgaben\\Aufgabe04\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Modulare Softwareentwicklung im Frontend\\Modulare-Softwareentwicklung-im-Frontend\\SoftwareDesign-Aufgaben\\Aufgabe04 - Debugger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
