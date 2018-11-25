@@ -96,8 +96,8 @@ namespace Aufgabe06_Quiz
             
             Console.WriteLine("--------------------------------");
             Console.WriteLine("Es gibt fünf Fragen zu beantworten.");
-            Console.WriteLine("Nach dem ersten Versuch bekommst du einen zweiten.");
-            Console.WriteLine("Du musst nur die Frage beantworten, die du falsch beantwortet hast.");
+            Console.WriteLine("Wenn du die Frage beim ersten Mal falsch beantwortest, bekommst du einen zweiten Versuch.");
+            Console.WriteLine("Du musst nur die Fragen erneut beantworten, die du falsch beantwortet hast.");
             Console.WriteLine("Bist du bereit?");
             Console.WriteLine("--------------------------------");
             Console.WriteLine("Drücke eine beliebige Taste um das Quiz zu starten...");

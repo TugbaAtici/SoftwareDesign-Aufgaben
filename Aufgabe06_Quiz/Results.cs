@@ -39,10 +39,10 @@ namespace Aufgabe06_Quiz
                     Console.ForegroundColor = ConsoleColor.White;
                     firstResults[i].PrintQuestion();
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Deine Antwort: " + firstResults[i].inputAnswer);
+                    Console.WriteLine("Deine Antwort lautet: " + firstResults[i].inputAnswer);
                     Console.ForegroundColor = ConsoleColor.White;
                     AddFinalResult(firstResults[i]);
-                    Console.WriteLine("Drücken eine beliebige Taste, um zur nächsten Frage zu gelangen.");
+                    Console.WriteLine("Drücke eine beliebige Taste, um zur nächsten Frage zu gelangen.");
                     Console.ReadKey();
                 }
                 else
@@ -53,7 +53,7 @@ namespace Aufgabe06_Quiz
                     if (firstResults[i].Ask())
                     {
                         AddFinalResult(firstResults[i]);
-                        Console.WriteLine("Drücken eine beliebige Taste, um zur nächsten Frage zu gelangen.");
+                        Console.WriteLine("Drücke eine beliebige Taste, um zur nächsten Frage zu gelangen.");
                     }
                     else
                     {

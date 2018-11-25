@@ -14,7 +14,7 @@ namespace Aufgabe06_Quiz
         public string inputAnswer;
         private int correctIndex;
         private string questionType;
-        public static string trueAndFalse = "TF";
+        //public static string trueAndFalse = "TF";
         public static string multipleChoice = "MC";
 
 
@@ -75,7 +75,7 @@ namespace Aufgabe06_Quiz
                 Console.WriteLine("Richtig!");
                 isCorrect = true;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Drücken eine beliebige Taste, um zur nächsten Frage zu gelangen..");
+                Console.WriteLine("Drücke eine beliebige Taste, um zur nächsten Frage zu gelangen.");
                 Console.ReadKey();
             }
             else
@@ -85,7 +85,7 @@ namespace Aufgabe06_Quiz
                 Console.WriteLine("Falsch, weitergehen!");
                 isCorrect = false;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Drücken eine beliebige Taste, um zur nächsten Frage zu gelangen..");
+                Console.WriteLine("Drücke eine beliebige Taste, um zur nächsten Frage zu gelangen.");
                 Console.ReadKey();
             }
             
