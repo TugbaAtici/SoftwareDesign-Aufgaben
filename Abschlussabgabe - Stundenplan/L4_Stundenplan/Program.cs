@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 using L4_Stundenplan.Model;
 
-
 namespace L4_Stundenplan
 {
     class Program

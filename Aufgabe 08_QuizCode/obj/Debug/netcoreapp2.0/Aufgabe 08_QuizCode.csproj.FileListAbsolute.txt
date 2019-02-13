@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\bin\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.deps.json
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\bin\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\bin\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.runtimeconfig.dev.json
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\bin\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.dll
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\bin\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.pdb
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\obj\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\obj\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\obj\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\obj\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.dll
+C:\Users\Admin\Documents\GitHub\Modulare Softwareentwicklung im Frontend\Modulare-Softwareentwicklung-im-Frontend\SoftwareDesign-Aufgaben\Aufgabe 08_QuizCode\obj\Debug\netcoreapp2.0\Aufgabe 08_QuizCode.pdb
