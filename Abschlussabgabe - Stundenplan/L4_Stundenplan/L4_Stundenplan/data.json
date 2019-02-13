@@ -78,6 +78,12 @@
                     "room": "FU I0.17",
                     "days": [4] 
                 },
+                {
+                    "name": "Tutoriat, Programmieren",
+                    "time": "14:00-15:30",
+                    "room": "FU L2.07a",
+                    "days": [4] 
+                },
 
                 {
                     "name": "Grundlagen Mediengestaltung, Praktikum",
@@ -344,7 +350,7 @@
                 },
 
                 {
-                    "name": "Grundlagen Mediengestaltung",
+                    "name": "Grundlagen Mediengestaltung, Vorlesung",
                     "time": "11:15-12:45",
                     "room": "FU I0.17",
                     "days": [4]
@@ -374,7 +380,7 @@
                 },
 
                 {
-                    "name": "Computergrafik Vorlesung",
+                    "name": "Computergrafik, Vorlesung",
                     "time": "11:15-12:45",
                     "room": "FU C0.01",
                     "days": [1]
@@ -388,7 +394,7 @@
                 },
 
                 {
-                    "name": "AV-Produktion",
+                    "name": "AV-Produktion, Vorlesung",
                     "time": "09:30 - 11:00",
                     "room": "FU I0.17",
                     "days": [2]
@@ -409,7 +415,7 @@
                 },
 
                 {
-                    "name": "AV-Produktion",
+                    "name": "AV-Produktion, Vorlesung",
                     "time": "11:15-12:45",
                     "room": "FU I0.17",
                     "days": [3]
@@ -444,7 +450,7 @@
                 },
 
                 {
-                    "name": "Marketing",
+                    "name": "Marketing, Vorlesung",
                     "time": "11:15-12:45",
                     "room": "FU I0.17",
                     "days": [5]
@@ -601,7 +607,7 @@
 
                 {
                     "name": "Physik in Medien und Informatik",
-                    "time": "11:15-12.45",
+                    "time": "11:15-12:45",
                     "room": "FU I0.16",
                     "days": [3]
                 },
@@ -644,7 +650,7 @@
 
             "semester2": [
                 {
-                    "name": "Computergrafik und 3D-Modellierung, Vorlesung",
+                    "name": "Computergrafik, Vorlesung",
                     "time": "11:15-12:45",
                     "room": "FU C0.01",
                     "days": [1]
@@ -679,7 +685,7 @@
                 },
 
                 {
-                    "name": "Computergrafik und 3D-Modellierung, Praktikum",
+                    "name": "Computergrafik, Praktikum",
                     "time": "15:45-17:15",
                     "room": "FU L2.09",
                     "days": [2]
@@ -1030,13 +1036,6 @@
                 "days": [1]
             },
             {
-                "name": "Crossmediale Medienkonzeption, Praktikum",
-                "date": "07.01.2019",
-                "time": "09:30-13:00",
-                "room": "FU I0.17",
-                "days": [1]
-            },
-            {
                 "name": "DM-Optiklabor",
                 "date": "11.02.2019",
                 "time": "09:30-12:45",
@@ -1309,19 +1308,19 @@
         {
             "short_name": "MIB",
             "name": "Medieninformatik",
-            "students": 3500,
+            "students": 3500
         },
 
         {
             "short_name": "MKB",
             "name": "Medienkonzeption",
-            "students": 1500,
+            "students": 1500
         },
 
         {
             "short_name": "OMB",
             "name": "Online Medien",
-            "students": 700,
+            "students": 700
         }
     ],
 
@@ -1686,7 +1685,7 @@
         {
             "name": "Prof. Dr. Dirk Eisenbiegler",
             "email": "Dirk.Eisenbiegler@hs-furtwangen.de",
-            "offered_courses": ["Programmierung, Vorlesung", "Programmierung, Praktikum", "Verteilte Anwendungen, Vorlesung", "Verteilte Anwendungen, Praktikum"]
+            "offered_courses": ["Programmierung, Vorlesung", "Programmierung, Praktikum", "Verteilte Anwendungen, Vorlesung", "Verteilte Anwendungen, Praktikum", "Tutoriat Programmieren"]
         },
 
         {
@@ -1734,7 +1733,7 @@
         {
             "name": "Prof. Christoph Müller",
             "email": "Christoph.Mueller@hs-furtwangen.de",
-            "offered_courses": ["Computergrafik, Vorlesung", "Computergrafik, Praktikum", "Datenverarbeitung in der Medienproduktion", "Computergrafik und 3D-Modellierung, Vorlesung", "Computergrafik und 3D-Modellierung, Praktikum"]
+            "offered_courses": ["Computergrafik, Vorlesung", "Computergrafik, Praktikum", "Datenverarbeitung in der Medienproduktion"]
         },
 
         {
